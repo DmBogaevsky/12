@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/IndiveDashboard'),
+      dir: require('path').join(__dirname, './coverage/indive-web'),
       subdir: '.',
       reporters: [
         { type: 'html' },

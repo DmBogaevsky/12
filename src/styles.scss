@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/ionicons/dist/css/ionicons-core.css";
+@import "../node_modules/ionicons/dist/css/ionicons.css";
+@import "styles/bootstrap/bootstrap";
+@import "styles/base/includes";
+@import "styles/framework/includes";
+
+.carousel-item-5 {
+    display: flex;
+}
